@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "tag":"greetings",
+      "patterns":["ciao","buongiorno","hey","salve","hey, ciao","come va"],
+      "responses": ["ciao!","hey","cosa posso fare per te?"]
+    },
+    {
+      "tag": "points",
+      "patterns": ["come funzionano i punti","che cosa sono i punti","spiegami i punti","come faccio a guadagnare punti"],
+      "responses": ["i punti, chiamati 'cornicoin', permettono di riscattare dei premi al raggiungimento di una soglia. Ogni acquisto all'interno di un negozio associato garantisce una corrispondenza in punti. Ogni euro di spesa equivale ad un cornicoin.  "]
+    },
+    {
+      "tag": "application",
+      "patterns": ["che cos'è questa app","a cosa serve questa app"],
+      "responses": ["questa app serve per guadagnare punti e riscattare premi. é stata sviluppata per promuovere le piccole aziende di cornigliano"]
+    }
+  ]
+}
